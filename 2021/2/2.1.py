@@ -1,5 +1,6 @@
 f = open("input.txt", 'r')
 data = f.readlines()
+f.close()
 hp = 0
 depth = 0
 for i in range(len(data)):
